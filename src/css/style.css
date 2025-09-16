@@ -119,6 +119,10 @@
   font-size: 17px;
 }
 
+.top-bar a:hover {
+  color: var(--background-color-1);
+}
+
 /* End Top bar */
 
 /* Side bar */
@@ -156,6 +160,17 @@
 }
 
 /* End side bar */
+
+/* Side bar 2 */
+
+.side-bar-2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* End Side bar 2 */
 
 /* Footer */
 
